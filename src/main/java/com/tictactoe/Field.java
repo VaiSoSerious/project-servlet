@@ -59,4 +59,11 @@ public class Field {
         }
         return Sign.EMPTY;
     }
+
+    @Override
+    public String toString() {
+        return "Field{" +
+                "field=" + field +
+                '}';
+    }
 }
